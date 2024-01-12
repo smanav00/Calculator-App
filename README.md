@@ -1,6 +1,4 @@
 # Calculator-App
-
-# Calculator-App
 This a completely functional calculator web application that allows you to perform
 basic arithmetic operations.
 
