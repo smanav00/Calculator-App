@@ -11,9 +11,9 @@ basic arithmetic operations.
 
 
 **USER INSTRUCTIONS : -**
-1. AC button is to remove an entry. From keyboard, use 'delete' button.
-2. C is to perform backspace. On keyboard use the regular 'baackspace' button.
-3. H is to view the calculation history. Press 'h' or 'H' on keyboard.
+1. 'AC' button is to remove an entry. From keyboard, use 'delete' button.
+2. 'C' is to perform backspace. On keyboard use the regular 'baackspace' button.
+3. 'H' is to view the calculation history. Press 'h' or 'H' on keyboard.
 4. 0-9 are for entering operands. Same is for keyboard buttons.
 5. '.' is for inclding decimal numbers.
 6. Operators on screen are equivalent to key-board operators.
