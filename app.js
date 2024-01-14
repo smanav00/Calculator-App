@@ -127,7 +127,7 @@ function isNumber(char) {
 }
 
 function isOperator(char) {
-    return /\+|\-|\*|\//.test(char);
+    return /\+|\-|\*|\%|\//.test(char);
 }
 
 function precedence(operator) {
@@ -137,6 +137,7 @@ function precedence(operator) {
             return 1;
         case '*':
         case '/':
+        case '%':
             return 2;
         default:
             return 0;
@@ -162,6 +163,12 @@ function applyOperator(operator, b, a) {
         case '/':
             if (b !== 0) {
                 return a / b;
+            } else {
+                throw new Error("Division by zero");
+            }
+        case '%':
+            if (b !== 0) {
+                return a % b;
             } else {
                 throw new Error("Division by zero");
             }
